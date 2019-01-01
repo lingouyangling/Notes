@@ -16,23 +16,23 @@ os.listdir()
 ```
 make a new directory under the current directory
 ```python
-os.mkdir(dir name)
+os.mkdir(dirname)
 ```
 make new directories with multiple levels
 ```python
-os.makedirs(dir path)
+os.makedirs(dirpath)
 ```
 remove a dir under the current dir
 ```python
-os.rmdir(dir name)
+os.rmdir(dirname)
 ```
 remove dirs with a tree structure
 ```python
-os.removedirs(dir path)
+os.removedirs(dirpath)
 ```
 rename
 ```python
-os.rename(old name, new name)
+os.rename(oldname, newname)
 ```
 get information of a file
 ```python
@@ -69,15 +69,15 @@ os.path.basename(filename)
 ```
 split a file path to a dir and a file name
 ```python
-os.path.split(file path)
+os.path.split(filepath)
 ```
 split a file path to a root and extension
 ```python
-os.path.splitext(file path)
+os.path.splitext(filepath)
 ```
 check if a path exists
 ```python
-os.path.exists(file path)
+os.path.exists(filepath)
 ```
 check if a path is a dir
 ```python
