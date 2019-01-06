@@ -9,4 +9,3 @@ operations:
  * transformations
  * actions
  ## spark DataFrames
- 
