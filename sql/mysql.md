@@ -102,3 +102,26 @@ SELECT REPLACE(<string>/<column_name>, <text_to_be_replaced>, <substitute_text>)
 ```sql
 SELECT REVERSE(<object>) from <table_name>;
 ```
+## char length
+```sql
+CHAR_LENGTH()
+```
+## case of string
+```sql
+UPPER()
+```
+```sql
+LOWER()
+```
+## distinct
+```sql
+SELECT DISTINCT <column_name> FROM <table_name>;
+```
+## sorting
+```sql
+SELECT <column_name> FROM <table_name> ORDER BY <column_name> DESC LIMIT 0,5;
+```
+## wildcards
+```sql
+SELECT <column_name> FROM <table_name> WHERE <column_name> LIKE '%haha%'
+```
