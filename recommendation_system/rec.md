@@ -49,3 +49,56 @@ poor recommendations lead to failure to explore
 * whose opinions
 * personalization level
 * privacy and trustworthiness
+* interfaces
+* recommendation algorithms
+### domains of recommendation
+* news, information, 'text'
+* products, vendors, bundles
+* matchmaking *other people*
+* sequences *music playlist*   
+an interest perspective
+* new items *movies, books*
+* re-recommend old ones *groceries, music*
+### purposes of recommendation
+* the recommendations themselves
+ * sales
+ * information
+* education of user/customer
+* build a community of users/customers around products or content *TripAdviser*
+### recommendation context
+* what is the user doing at the time of recommendation?
+ * shopping
+ * listening to music
+ * hanging out with other people
+* how does the context constrain the recommender
+### whose opinion?
+* experts *wine.com*
+* folks
+* people like you
+### personalization level
+* generic/non-personalized: everyone receives same recommendations
+* demographic: matches a target group
+* ephemeral: matches current activity
+* persistent: matches long-term interests
+### privacy and trustworthiness
+### interfaces
+* types of output
+ * predictions
+ * recommendations
+ * filtering
+ * organic vs. explicit presentation
+* types of input
+ * explicit
+ * implicit
+### recommendation algorithms
+* non-personalized summary statistics
+* content-based filtering
+ * information filtering
+ * knowledge-based
+* collaborative filtering
+ * user-user
+ * item-item
+ * dimensionality reduction
+* others
+ * critique/interview based recommendations
+ * hybrid techniques
