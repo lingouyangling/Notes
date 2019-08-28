@@ -102,3 +102,10 @@ an interest perspective
 * others
  * critique/interview based recommendations
  * hybrid techniques
+### non-personalized summary stats
+* external community data *best-seller; most popular; trending hot*
+* summary of community ratings *best-liked*
+### content-based filtering
+break items down to attributes, each attribute has a value, an item can be represented by a vector of attributes (values), calculate distance between query item and the rest items, then rank
+### collaborative filtering
+### evaluation
